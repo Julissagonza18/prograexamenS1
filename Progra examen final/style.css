@@ -1,0 +1,118 @@
+body{
+    background-color: #fafafa;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSB5smkGrL-is2fT7mb4bDggbBnEc4XGWtgPQ&usqp=CAU);
+    font-family: arial ;
+    font-size: 1.2rem ;
+    line-height: 1.6em ;
+    margin: 0;
+
+
+}
+
+.container{
+  width:90%;
+  max-width: 850px ;
+  margin: 0 auto;
+}
+img {
+width: 100%;
+height: auto;
+}
+.header{
+ background:#333;
+ color:white;
+ padding: 2rem 0;
+
+ position: fixed;
+ left: 0 ;
+ top: 0;
+ right: 0 ;
+
+}
+ .header a{
+  color:white;
+  text-decoration:none;
+
+}
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  flex-wrap: wrap ;
+}
+.menu-icon{
+  display: none ;
+}
+.logo{
+  letter-spacing: 15px ;
+  font-size: 1.4em ; 
+
+   }
+  .navigation ul li{
+    display: inline-block;
+  }
+
+  .navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem ;
+    transition: all 0.4s linear ;
+    border-radius: 5px ;
+  }
+   .navigation ul li a:hover {
+    background: #00bcd4;
+  }
+
+  .main{
+
+    padding-top: 12rem ;
+  }
+
+  .footer {
+    background: #f2f2f2 ;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+  }
+
+
+
+  @media only screen and (max-widdth: 767px) {
+
+   .menu-icon{
+    display: block ;
+    cursor: pointer;
+    padding: 0.5rem 1rem ;
+   }
+   .navigation ul{
+    display: none;
+   }
+   .navigation ul.show{
+    display: block;
+
+  }
+   .navigation{
+    width: 100% ;
+   }
+  .navigation ul li{
+    display: block;
+    margin-top: 1rem ;
+  }
+
+.menu li{
+  /*position: relative;*/
+  display: inline-block;
+}
+.menu  li  a { 
+     display: block;
+     padding: 15px 20px;
+     color:#4dd0e1;
+     text-decoration: none;
+
+ }
+.menu li a:hover{  
+   color:#29b6f6;
+   transition: all .3s;
+ }
+
+
+
